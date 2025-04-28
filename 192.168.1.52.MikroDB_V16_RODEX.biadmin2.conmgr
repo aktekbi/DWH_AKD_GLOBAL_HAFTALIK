@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="192.168.1.52.MikroDB_V16_RODEX.biadmin2"
+  DTS:DTSID="{77DCF24D-ED2C-4AF7-8EBB-3B675AE826FC}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=192.168.1.52;User ID=biadmin2;Initial Catalog=MikroDB_V16_RODEX;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-DWH_OZB-{77DCF24D-ED2C-4AF7-8EBB-3B675AE826FC}192.168.1.52.MikroDB_V16_RODEX.biadmin2;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1"
+        p4:Salt="HwvHp2OHbpw="
+        p4:IV="G9jb7hwru8Ka7tQpYNAiqg=="
+        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">GFxpHlQ1xr7LHw4Jjz9lPq0H1Y+LlhzBIciYsio3As5Pvy/lg7hgcPVA2wbb6KmT1b2rTlMr9v43rcUyjok5rjktFQGLxbPwX0lcTcUT3UDBg14xPvzdslEi/uAS/7T7FIDR4Je2SLMHxfNcnE4Xq/GmpHj+TDbCKPd1/c23Jnc=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

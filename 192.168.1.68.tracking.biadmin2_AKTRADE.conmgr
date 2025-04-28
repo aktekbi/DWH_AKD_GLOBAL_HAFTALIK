@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="192.168.1.68.tracking.biadmin2_AKTRADE"
+  DTS:DTSID="{4ABAB15D-4582-4375-BEFD-FD429CD1CEE0}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=192.168.1.68;User ID=biadmin2;Initial Catalog=tracking;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-DWH_AKTRADE_OLD-{4ABAB15D-4582-4375-BEFD-FD429CD1CEE0}192.168.1.68.tracking.biadmin2;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1"
+        p4:Salt="5gr0DcdgoKo="
+        p4:IV="8wd2L/ismdtCvcX+GRO0sg=="
+        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">gs9e0guzsaPdv65LmkWlU5JADOjmmdCgpwgbdVdI4v4Lu8ikqsEOoL7FWJzU3UFigNjb751WQb7+chtGGck8I339Km7jScXUy6lxBtuBSBLtNyLoksVxEtJo9f3IdWk+1PVdLvAIIYYyvpNy3uJ2sZCUo9hKkgNcxj6dCpYxHHo=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

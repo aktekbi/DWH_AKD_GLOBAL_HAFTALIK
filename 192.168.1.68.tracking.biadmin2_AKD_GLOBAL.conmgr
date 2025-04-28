@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="192.168.1.68.tracking.biadmin2_AKD_GLOBAL"
+  DTS:DTSID="{4902C754-5A46-4B18-BBD3-209FA5AD0E75}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=192.168.1.68;User ID=biadmin2;Initial Catalog=tracking;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-DWH_AKD_GLOBAL_OLD-{4902C754-5A46-4B18-BBD3-209FA5AD0E75}192.168.1.68.tracking.biadmin2;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1"
+        p4:Salt="eySrsjf+Rws="
+        p4:IV="b3Xg2RnYCUeoobVPW2gTmQ=="
+        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">rfYwLfiV23+q+dTvHE3goUPgKoxcTThzoQ8oX1xw2y6EEHZYD439J2cU8ykSqE2ESR4Ak56/L/8aS5XhMtcbMigknMIwde+nXiM4UJFw8iWEhPvRzIyW0JXvsbcaErDWtY8znhsnoWDiYceGYJarlXoslHIIaxJwFEGD9/F+qWk=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

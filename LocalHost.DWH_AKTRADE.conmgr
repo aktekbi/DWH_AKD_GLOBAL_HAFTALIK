@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LocalHost.DWH_AKTRADE"
+  DTS:DTSID="{4C71D4ED-BA92-46F0-B90D-0E4EDD7F29C4}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=DWH_AKTRADE;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-DWH_AKTRADE_OLD-{4C71D4ED-BA92-46F0-B90D-0E4EDD7F29C4}LocalHost.DWH_AKTRADE;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
