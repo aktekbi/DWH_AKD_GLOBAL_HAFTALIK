@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DWHYENI58</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="9rsAd1x9A0E=" SSIS:IV="6avHsKwT+DT2WuSVbJJKkg==" SSIS:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc">5VdU1OnIzt5nLVIpXvUo2uF825FxSshP8i4Rq9qf2Wra/6VIrxLK0EdyrDgHbLzp2fnuzV5Z5EOx9qDuCjAs9KBfK2IaDqmi8lxiq1wkZTy+54yOY4D3f7om3UHGudnwOMSBOWnKYrGugNWgGRjF+UrifN5tgHfQC2n3Mx/+kBK5V3c3mCns8hySQae2Ixzd</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="LnHHJAHhe5A=" SSIS:IV="q+lbI1Sxlf3lx/yfjMSs7w==" SSIS:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc">MyhBDqcGtGS2owl2siy31kXa6dQM/jq69pIDKVtLgITnTa0jCDaGKW8EvlFwPp0G5ErvGwRdmOGiNU8VL4T52ZcQFFLSyhXTtU1FJ90G7L1X8x/pdMVFHL7l8gB8WHZ/kTJ5YGZx/whc3+690f9+eG6+EPsB4mURhmeI8OmQuOWWI/Swqdzj0k2vEk0ZEr8T</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -74,8 +74,8 @@
           <SSIS:ConnectionManager SSIS:Name="LocalHost.DWH_TCK.conmgr" />
           <SSIS:ConnectionManager SSIS:Name="192 168 1 68 MikroDesktop biadmin2_AKD_GLOBAL.conmgr" />
           <SSIS:ConnectionManager SSIS:Name="192.168.1.68.MikroDesktop__AKD_GLOBAL.biadmin2.conmgr" />
-          <SSIS:ConnectionManager SSIS:Name="192.168.1.68.MikroDesktop.biadmin2_AKTRADE.conmgr" />
-          <SSIS:ConnectionManager SSIS:Name="192.168.1.68.MikroDesktop__AKTRADE.biadmin2.conmgr" />
+          <SSIS:ConnectionManager SSIS:Name="192.168.1.68.MikroDesktop.-biadmin2_AKTRADE.conmgr" />
+          <SSIS:ConnectionManager SSIS:Name="192.168.1.68.MikroDesktop_AKTRADE.biadmin2.conmgr" />
         </SSIS:ConnectionManagers>
         <SSIS:DeploymentInfo>
           <SSIS:ProjectConnectionParameters>
@@ -4836,7 +4836,7 @@
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDB_V16.biadmin2_AKTRADE.ConnectByProxy">
+            <SSIS:Parameter SSIS:Name="CM.192 168 1 68 MikroDesktop -biadmin2_AKTRADE.ConnectByProxy">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -4851,7 +4851,7 @@
                 <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDB_V16.biadmin2_AKTRADE.ConnectionString">
+            <SSIS:Parameter SSIS:Name="CM.192 168 1 68 MikroDesktop -biadmin2_AKTRADE.ConnectionString">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -4866,7 +4866,7 @@
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDB_V16.biadmin2_AKTRADE.ConnectRetryCount">
+            <SSIS:Parameter SSIS:Name="CM.192 168 1 68 MikroDesktop -biadmin2_AKTRADE.ConnectRetryCount">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -4881,7 +4881,7 @@
                 <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDB_V16.biadmin2_AKTRADE.ConnectRetryInterval">
+            <SSIS:Parameter SSIS:Name="CM.192 168 1 68 MikroDesktop -biadmin2_AKTRADE.ConnectRetryInterval">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -4896,7 +4896,7 @@
                 <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDB_V16.biadmin2_AKTRADE.ConnectUsingManagedIdentity">
+            <SSIS:Parameter SSIS:Name="CM.192 168 1 68 MikroDesktop -biadmin2_AKTRADE.ConnectUsingManagedIdentity">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -4911,7 +4911,7 @@
                 <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDB_V16.biadmin2_AKTRADE.InitialCatalog">
+            <SSIS:Parameter SSIS:Name="CM.192 168 1 68 MikroDesktop -biadmin2_AKTRADE.InitialCatalog">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -4926,7 +4926,7 @@
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDB_V16.biadmin2_AKTRADE.Password">
+            <SSIS:Parameter SSIS:Name="CM.192 168 1 68 MikroDesktop -biadmin2_AKTRADE.Password">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -4940,7 +4940,7 @@
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDB_V16.biadmin2_AKTRADE.RetainSameConnection">
+            <SSIS:Parameter SSIS:Name="CM.192 168 1 68 MikroDesktop -biadmin2_AKTRADE.RetainSameConnection">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -4955,7 +4955,7 @@
                 <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDB_V16.biadmin2_AKTRADE.ServerName">
+            <SSIS:Parameter SSIS:Name="CM.192 168 1 68 MikroDesktop -biadmin2_AKTRADE.ServerName">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -4970,7 +4970,7 @@
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDB_V16.biadmin2_AKTRADE.UserName">
+            <SSIS:Parameter SSIS:Name="CM.192 168 1 68 MikroDesktop -biadmin2_AKTRADE.UserName">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -4985,7 +4985,7 @@
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDB_V16_AKTRADE.biadmin2.ConnectByProxy">
+            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDesktop_AKTRADE.biadmin2.ConnectByProxy">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -5000,7 +5000,7 @@
                 <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDB_V16_AKTRADE.biadmin2.ConnectionString">
+            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDesktop_AKTRADE.biadmin2.ConnectionString">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -5015,7 +5015,7 @@
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDB_V16_AKTRADE.biadmin2.ConnectRetryCount">
+            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDesktop_AKTRADE.biadmin2.ConnectRetryCount">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -5030,7 +5030,7 @@
                 <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDB_V16_AKTRADE.biadmin2.ConnectRetryInterval">
+            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDesktop_AKTRADE.biadmin2.ConnectRetryInterval">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -5045,7 +5045,7 @@
                 <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDB_V16_AKTRADE.biadmin2.ConnectUsingManagedIdentity">
+            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDesktop_AKTRADE.biadmin2.ConnectUsingManagedIdentity">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -5060,7 +5060,7 @@
                 <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDB_V16_AKTRADE.biadmin2.InitialCatalog">
+            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDesktop_AKTRADE.biadmin2.InitialCatalog">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -5075,7 +5075,7 @@
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDB_V16_AKTRADE.biadmin2.Password">
+            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDesktop_AKTRADE.biadmin2.Password">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -5089,7 +5089,7 @@
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDB_V16_AKTRADE.biadmin2.RetainSameConnection">
+            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDesktop_AKTRADE.biadmin2.RetainSameConnection">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -5104,7 +5104,7 @@
                 <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDB_V16_AKTRADE.biadmin2.ServerName">
+            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDesktop_AKTRADE.biadmin2.ServerName">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -5119,7 +5119,7 @@
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDB_V16_AKTRADE.biadmin2.UserName">
+            <SSIS:Parameter SSIS:Name="CM.192.168.1.68.MikroDesktop_AKTRADE.biadmin2.UserName">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -5142,10 +5142,10 @@
                 <SSIS:Property SSIS:Name="Name">DWH_AKD_GLOBAL_H</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">72</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">77</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{20D3B79B-3D7A-4455-ADA6-6954C8793A41}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{354EA4F2-422B-407B-AF45-3719AE8BF4BD}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -5159,10 +5159,10 @@
                 <SSIS:Property SSIS:Name="Name">DWH_AKTRADE_H</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">50</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">55</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{381CCBD9-6F36-40C7-BAFF-0B2371DB2253}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{8825EDD0-3B0C-48EE-8A67-6AD83821DC9D}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -5176,10 +5176,10 @@
                 <SSIS:Property SSIS:Name="Name">DWH_ERM_H</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">76</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">77</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{44AA4AA9-2D7B-424F-A231-16F75BAF93CB}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{F218415D-408B-4AEF-BE47-8ACD44892985}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -5193,10 +5193,10 @@
                 <SSIS:Property SSIS:Name="Name">DWH_GRC_H</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">59</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">60</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{E21DE89D-81B9-4FCB-98F5-08B7B00D02B7}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{9180475E-39AB-45A2-BA8A-BC98A123C2E2}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -5210,10 +5210,10 @@
                 <SSIS:Property SSIS:Name="Name">DWH_GRNT_H</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">29</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">30</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{C119C325-45B0-47C6-9644-3323404D9BDA}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{AB82D341-0D1A-4C38-B531-9960C13EA9BD}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -5227,10 +5227,10 @@
                 <SSIS:Property SSIS:Name="Name">DWH_KGZ_H</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">34</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">38</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{B9C59851-BF73-4CE2-A619-525F8CAFB054}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{C814AEE7-9FED-420A-ACAA-CAC6FFF95F2E}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -5244,10 +5244,10 @@
                 <SSIS:Property SSIS:Name="Name">DWH_KZK_H</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">162</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">163</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{FC9F1C4E-2A08-4DFD-B5BC-7BE1567FC00A}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{89E51E52-19A4-466C-8431-119227F60302}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -5261,10 +5261,10 @@
                 <SSIS:Property SSIS:Name="Name">DWH_OZB_H</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">63</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">64</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{C9DE0D14-31D3-4620-8F7C-0D07695F86FF}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{F70BCAD3-29BC-4257-A741-9950B7D7F284}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -5278,10 +5278,10 @@
                 <SSIS:Property SSIS:Name="Name">DWH_RMN_H</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">55</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">58</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{28EE7C4E-7CB9-4E27-9326-2EC69131C5ED}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{E6130F44-CCD9-4B49-B0A7-79644F00F458}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -5295,10 +5295,10 @@
                 <SSIS:Property SSIS:Name="Name">DWH_TCK_H</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">65</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">66</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{07E799FA-66AE-42FA-9F56-6E34BD3ABF88}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{B18526A1-4D91-4F93-885B-61500BAA894D}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>

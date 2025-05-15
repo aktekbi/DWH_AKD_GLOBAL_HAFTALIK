@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
-  DTS:ObjectName="192.168.1.68.MikroDB_V16_AKTRADE.biadmin2"
+  DTS:ObjectName="192.168.1.68.MikroDesktop_AKTRADE.biadmin2"
   DTS:DTSID="{0C1AE004-B426-4DB0-AB0E-049F4A05A42A}"
   DTS:CreationName="OLEDB">
   <DTS:ObjectData>
@@ -11,9 +11,9 @@
       <DTS:Password
         DTS:Name="Password"
         Sensitive="1"
-        p4:Salt="SmqRB5K4qv0="
-        p4:IV="U0HgQYSDCabd0TxGeHLBgw=="
-        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">BtgRC9QHoltOp1R3owl1Sw2xXyf/Q/KdZrLNgTDGi1Q1oQKyAWGcJy9aw8MX1EU+gSBqSAs9f2D2rTEEDLgw5MlyH9HokzPeklooid6lX3OdIP/3Okx6LVxDc52i7ACZNsrp/rNwQ7U90/qB7efEyR1v1DaDBT60cPu12yh+AzA=</DTS:Password>
+        p4:Salt="wVNWU9Yows8="
+        p4:IV="vzJoQEjW51QOzcTs5hs6dg=="
+        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">w5hIR9qZMDy7Y5JXIT4vPgUf8rPnwgRy5kgc63+URs3NMqBrdWBKtNYs57w1ydhU3QBNDoZKwQKOFh7LytiCz30rP3yYz84YBBfZsNQzwqXc7myVs9YWBZjZ3OgiP9JBfO+PZZCQkyPOErxK2BG2Dp8DljqPvxJsVf+/uE2XZhw=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>
